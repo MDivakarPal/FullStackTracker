@@ -1,0 +1,50 @@
+.stackContainer{
+    height: 300px;
+    width: 23%;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content:space-evenly;
+}
+.buttonContainer > button{
+    background-color: #4056A1;
+    border: none;
+}
+.buttonContainer > input{
+    background-color: #4056A1;
+    border: none;
+}
+.header1{
+    background-color: #D79922;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.images{
+    height: 65%;
+    width: 95%;
+}
+
+input{
+    height: 30px;
+    color: #D79922;
+}
+@media screen  and (max-width:750px){
+    .stackContainer{
+        height: 300px;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 2px 3px 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     
+    
+}

@@ -1,0 +1,18 @@
+.header{
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 5px 10px 15px gray;
+    z-index: 1000 !important;
+    background-color: #F1F0EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header > button{
+    height: 50px;
+    border: none;
+    width: 200px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
