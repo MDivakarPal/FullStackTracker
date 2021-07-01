@@ -1,0 +1,61 @@
+.DsaComponentContainer{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.topicContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+   }
+
+.topic{
+    height: 300px;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.topic >img{
+    height: 200px;
+    width: 100%;
+}
+.buttonTopic{
+    display: flex;
+    justify-content: space-between;
+}
+.track{
+    background-color: goldenrod;
+    border: none;
+    margin-top:5px ;
+    height: 30px;
+}
+
+.solved{
+    background-color: rgba(0, 0, 255, 0.527);
+    color: white;
+    border: none;
+}
+.boxShadow{
+    
+}
+@media only screen and (max-width:750px){
+    .topicContainer{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+       }
+       .topic{
+        height: 300px;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

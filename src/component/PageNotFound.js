@@ -4,7 +4,13 @@ import Header from './Header'
 export default function PageNotFound() {
     return (
         <div>
-           <Header/>
+          <div> <Header/></div>
+        <center>  <div >
+              <br/><br/>
+              <br/><br/>
+              <br/><br/>
+              <br/><br/>
+               </div></center>
           </div>
     )
 }

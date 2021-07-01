@@ -172,3 +172,4 @@ link:"https://www.geeksforgeeks.org/recursively-print-all-sentences-that-can-be-
 source:"Geeks For Geeks" , note:" " , difficulty:'2' 
 }
 ]
+export {STRING_DATA}
